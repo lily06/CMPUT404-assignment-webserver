@@ -18,6 +18,14 @@ server.py contains contributions from:
 * Eddie Antonio Santos
 * Jackson Z Chang
 * Mandy Meindersma 
+* Zhi Li
+
+References
+========================
+https://stackoverflow.com/questions/3430372/how-to-get-full-path-of-current-files-directory-in-python author:Bryan Oakley
+https://andidittrich.github.io/HttpErrorPages/HTTP400.html
+https://github.com/python/cpython/blob/3.7/Lib/http/server.py
+https://stackoverflow.com/questions/3812849/how-to-check-whether-a-directory-is-a-sub-directory-of-another-directory author: jme
 
 But the server.py example is derived from the python documentation
 examples thus some of the code is Copyright © 2001-2013 Python
