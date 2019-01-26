@@ -62,7 +62,7 @@ class MyWebServer(socketserver.BaseRequestHandler):
             lines = request_text.splitlines()
             lineOne = lines[0].split()
             if len(lineOne) >=3:
-                if lineOne[0] == "GET" 
+                if lineOne[0] == "GET":
                     if lineOne[2] == HTTP_HEAD or float(lineOne[2].split("/")[1]) <=1.1:
                         # print("1\n")
                         response= self._handle_request(lines)
